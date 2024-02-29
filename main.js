@@ -13,7 +13,7 @@ items.forEach((itemText) => {
 input.addEventListener("keyup", function (e) {
   if (e.key === "Enter") {
     if (this.value.trim() === "") {
-      alert("Lütfen bir madde girin!");
+      alert("Please enter an item!");
     } else {
       addItemAndSave(this.value);
       this.value = ""; 
